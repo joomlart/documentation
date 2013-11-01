@@ -1,0 +1,1 @@
+EasySocial comes with a built-in universal search which allows you to search just about anything within EasySocial. You can manage the search results by viewing it from the back end of EasySocial's `Indexer` section

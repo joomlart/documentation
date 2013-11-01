@@ -1,0 +1,1 @@
+You may also define default privacy for the profiles on your site. With the built-in sophisticated privacy system in EasySocial, you can create different default privacy options for users that registers on your site.

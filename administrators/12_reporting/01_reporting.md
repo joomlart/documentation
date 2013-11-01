@@ -1,0 +1,1 @@
+wModule positions as most of you may have already know it, allows one to position a module on a page. However, in most cases, these are only available on Joomla templates. In EasySocial, we have over 30 different module positions where you can position your favorite modules within EasySocial.

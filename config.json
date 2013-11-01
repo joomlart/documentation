@@ -1,0 +1,14 @@
+{
+	"title": "Stack Ideas Documentation",
+	"tagline": "The Easiest Way To Document Your Project",
+	"image": "img/app.png",
+	"theme": "navy",
+	"date_modified": true,
+	"twitter": ["stackideas"],
+	"google_analytics": "",
+	"links":
+	{
+		"Support"	: "http://stackideas.com/forums",
+		"Made by Todaymade": "http://todaymade.com"
+	}
+}

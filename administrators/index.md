@@ -47,7 +47,4 @@ This documentation is contributed by the team that developed [EasySocial](http:/
 	<li>
 		<img src="http://cdn.stackideas.com/templates/next/assets/images/team/andrew-rogers.jpg.pagespeed.ce.3vLwpoQg6b.jpg" class="img-circle" />
 	</li>
-	<li>
-		<img src="http://cdn.stackideas.com/templates/next/assets/images/team/wyatt-teng.jpg.pagespeed.ce.dBIMJV7l3w.jpg" class="img-circle" />
-	</li>
 </ul>

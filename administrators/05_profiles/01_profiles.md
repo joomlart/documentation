@@ -1,4 +1,4 @@
-EasySocial comes with a profile system which allows you to create multiple profiles for users on the site. This is a very usefull functionality for sites that runs on multiple user types or subscription based. It also allows you to separate different user workflows for different segment of users on your site. 
+EasySocial comes with a profile system which allows you to create multiple profiles for users on the site. This is a very useful functionality for sites that runs on multiple user types or subscription based. It also allows you to separate different user workflows for different segment of users on your site. 
 
 Consider this scenario:
 

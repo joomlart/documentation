@@ -63,8 +63,7 @@
 
 Import ordering
 ---------------
-Foundry stylesheets is built on top of LESS framework with Joomla's template override system in mind.
-When importing external stylesheets using `@import`, the less compiler will look for the stylesheet file based on the following order of asset locations:
+Foundry LESS compiler has been configured to have the following import seek ordering similar to Joomla's template override system. When importing external stylesheets using `@import`, the compiler will look for the stylesheet files based on the following order of locations:
 
 1. user
 2. site / admin
@@ -74,24 +73,26 @@ When importing external stylesheets using `@import`, the less compiler will look
 
 Path relativity
 ---------------
-The relative path of all your stylesheet files, wherever they are located, is always the path of your current template stylesheet folder `@{theme}\styles`. This is because the compiled stylesheet file is created at this location `@{theme}\styles\style.css`.
+The relative path of all your stylesheet files, wherever they are located, is always the path of your current template stylesheet folder `@{site}\styles`. This is because the compiled stylesheet file is created at this location `@{site}\styles\style.css`.
 
-Therefore, if you are adding a stylesheet under the theme override `${theme-override}` folder or any other locations that is not your current theme folder, all external asset linking like `url()` should contain the path variable prefix, e.g.
+Therefore, all external assets that is loaded using `url()` should contain the location variable prefix, e.g.
+
 ```
-background: url('@{theme-override}/images/image.png');
 background: url('@{media}/images/image.png');
 background: url('@{foundry}/styles/bootstrap/images/image.png');
 ```
 
-#### Important!
-For your base theme, **YOU MUST** add the path variable prefix in front because the stylesheet may be loaded from another theme, e.g.
+**Important!** For your base theme, you **MUST** add the path variable prefix in front because the stylesheet may be loaded from another theme, e.g.
+
 ```
-background: url('@{theme-base}/images/image.png');
+background: url('@{site-base}/images/image.png');
 ```
 
 Importing absolute path
 -----------------------
-The less compiler used in Foundry has been modified to import absolute paths. To tell the compiler that you are providing an absolute path, add a percent symbol prefix, e.g.
-```css
+**INTERNAL FEATURE:** Foundry LESS compiler has been modified to import absolute paths. To tell the compiler that you are providing an absolute path, add a percent symbol prefix, e.g.
+
+```
 @import "%/home/user/public_html/style.less";
-@import "@{__theme-base}/style"; /* When using one of the preset locations */
+@import "@{site_base}/style"; /* When using one of the preset locations */
+```

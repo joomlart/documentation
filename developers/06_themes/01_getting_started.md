@@ -5,7 +5,8 @@ There are 4 types of stylesheets:
 * Theme stylesheets
 * User-configured stylesheets
 
-### 1. Global stylesheets
+Global stylesheets
+------------------
 
 Global stylesheets are located in `/media/foundry/4.0/styles`.
 
@@ -20,7 +21,8 @@ The purpose of global stylesheets is to provide _shared stylesheets that is used
 }
 ```
 
-### 2. Component stylesheets
+Component stylesheets
+---------------------
 
 Component stylesheets are located in `/media/com_component/styles`.
 
@@ -56,7 +58,8 @@ Main component stylesheet is located in `/media/com_component/styles/component.l
 
 Additional stylesheets are non-essential stylesheets that can be imported only when they are required.
 
-### 3. Theme stylesheets
+Theme stylesheets
+-----------------
 
 Theme stylesheets are located in `/components/com_component/themes/theme_name` for site themes and `/administrator/components/com_component/themes/theme_name` for admin themes.
 
@@ -92,7 +95,8 @@ Every section stylesheet, e.g. `photos.less` **MUST import configuration file** 
 @import "photos/browser"
 ```
 
-### 4. User-configured stylesheets (1.3+)
+User-configured stylesheets (1.3+)
+----------------------------------
 
 User-configured stylesheets are located in `/media/com_component/themes/site/theme_name` for site themes and `/media/com_component/themes/admin/theme_name` for admin themes.
 

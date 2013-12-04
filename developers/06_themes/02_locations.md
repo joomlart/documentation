@@ -30,6 +30,12 @@
     <td>/administrator/components/<u>com_component</u>/themes/<u>base_theme</u></td>
 </tr>
 <tr>
+    <td>User-configured theme</td>
+    <td>@{user}</td>
+    <td>@{user_uri}</td>
+    <td>/media/<u>com_component</u>/admin/themes/<u>theme_name</u><br/>/media/<u>com_component</u>/site/themes/<u>theme_name</u></td>
+</tr>
+<tr>
     <td>Component media folder</td>
     <td>@{media}</td>
     <td>@{media_uri}</td>
@@ -60,11 +66,11 @@ Import ordering
 Foundry stylesheets is built on top of LESS framework with Joomla's template override system in mind.
 When importing external stylesheets using `@import`, the less compiler will look for the stylesheet file based on the following order of asset locations:
 
-1. site-override / admin-override
+1. user
 2. site / admin
-3. site-base / admin-base
-4. media
-5. foundry
+3. site_base / admin_base
+4. component
+5. global
 
 Path relativity
 ---------------

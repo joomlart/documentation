@@ -1,0 +1,1 @@
+EasySocial comes with a wide variety of configuration options that allows you to quickly customize most of the behavior of EasySocial. In this section, we'll briefly guide you with all the available settings available in EasySocial.

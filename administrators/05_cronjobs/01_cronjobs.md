@@ -11,6 +11,7 @@ If your web host doesn't support cron jobs, it's time that you ditch them or get
 
 * http://setcronjob.com
 * http://cronjob.com
+* http://www.easycron.com
 
 Altneratively, if this it is viable to switch your hosting provider, these are the list of web hosting companies that we would strongly suggest:
 
